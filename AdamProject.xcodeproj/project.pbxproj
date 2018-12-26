@@ -7,14 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1828251DD5B7AB16122D111D /* libPods-AdamProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E6A1535E4840D6EF7FFAB65 /* libPods-AdamProject.a */; };
 		2B548D8E21CB29F700661E35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B548D8D21CB29F700661E35 /* AppDelegate.m */; };
-		2B548D9121CB29F700661E35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B548D9021CB29F700661E35 /* ViewController.m */; };
-		2B548D9421CB29F700661E35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B548D9221CB29F700661E35 /* Main.storyboard */; };
 		2B548D9621CB29F800661E35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B548D9521CB29F800661E35 /* Assets.xcassets */; };
-		2B548D9921CB29F800661E35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B548D9721CB29F800661E35 /* LaunchScreen.storyboard */; };
 		2B548D9C21CB29F800661E35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B548D9B21CB29F800661E35 /* main.m */; };
 		2B548DA621CB29F800661E35 /* AdamProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B548DA521CB29F800661E35 /* AdamProjectTests.m */; };
 		2B548DB121CB29F800661E35 /* AdamProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B548DB021CB29F800661E35 /* AdamProjectUITests.m */; };
+		2B548DD121CB333900661E35 /* GYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B548DCF21CB333900661E35 /* GYHomeViewController.m */; };
+		2B548DD221CB333900661E35 /* GYHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B548DD021CB333900661E35 /* GYHomeViewController.xib */; };
+		2B548DD621CB335600661E35 /* GYCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B548DD421CB335600661E35 /* GYCategoryViewController.m */; };
+		2B548DD721CB335600661E35 /* GYCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B548DD521CB335600661E35 /* GYCategoryViewController.xib */; };
+		2B6AD3A421D37F000043A5D7 /* GYShoppingCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6AD3A221D37F000043A5D7 /* GYShoppingCartViewController.m */; };
+		2B6AD3A521D37F000043A5D7 /* GYShoppingCartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B6AD3A321D37F000043A5D7 /* GYShoppingCartViewController.xib */; };
+		2BC1058A21CB718C00CFDC02 /* QMUIConfigurationTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1058921CB718C00CFDC02 /* QMUIConfigurationTemplate.m */; };
+		2BC1059921CB753B00CFDC02 /* QDCommonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1058D21CB753A00CFDC02 /* QDCommonListViewController.m */; };
+		2BC1059A21CB753B00CFDC02 /* QDCommonGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1058F21CB753A00CFDC02 /* QDCommonGridViewController.m */; };
+		2BC1059B21CB753B00CFDC02 /* QDCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1059121CB753A00CFDC02 /* QDCommonViewController.m */; };
+		2BC1059C21CB753B00CFDC02 /* QDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1059521CB753A00CFDC02 /* QDNavigationController.m */; };
+		2BC1059D21CB753B00CFDC02 /* QDCommonGroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1059621CB753A00CFDC02 /* QDCommonGroupListViewController.m */; };
+		2BC1059E21CB753B00CFDC02 /* QDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1059721CB753B00CFDC02 /* QDTabBarViewController.m */; };
+		2BC1059F21CB753B00CFDC02 /* QDCommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1059821CB753B00CFDC02 /* QDCommonTableViewController.m */; };
+		2BC105A921CB828F00CFDC02 /* QDUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC105A521CB828F00CFDC02 /* QDUIHelper.m */; };
+		2BC105AA21CB828F00CFDC02 /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC105A621CB828F00CFDC02 /* UIImageEffects.m */; };
+		2BC105AB21CB828F00CFDC02 /* QDCommonUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC105A721CB828F00CFDC02 /* QDCommonUI.m */; };
+		2BC105B521CB841300CFDC02 /* QMUIConfigurationTemplateGrass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC105AD21CB841300CFDC02 /* QMUIConfigurationTemplateGrass.m */; };
+		2BC105B621CB841300CFDC02 /* QDThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC105B021CB841300CFDC02 /* QDThemeManager.m */; };
+		2BC105B721CB841300CFDC02 /* QMUIConfigurationTemplatePinkRose.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC105B121CB841300CFDC02 /* QMUIConfigurationTemplatePinkRose.m */; };
+		2BC105B821CB841300CFDC02 /* QMUIConfigurationTemplateGrapefruit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC105B221CB841300CFDC02 /* QMUIConfigurationTemplateGrapefruit.m */; };
+		2BC105BC21CB885900CFDC02 /* GYMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC105BA21CB885900CFDC02 /* GYMineViewController.m */; };
+		2BC105BD21CB885900CFDC02 /* GYMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC105BB21CB885900CFDC02 /* GYMineViewController.xib */; };
+		2BC105C121CB8CF600CFDC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BC105C021CB8CF600CFDC02 /* LaunchScreen.storyboard */; };
+		2BC105C621CB9AE200CFDC02 /* UINavigationBar+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC105C421CB9AE200CFDC02 /* UINavigationBar+QMUI.m */; };
+		A8FF21612488C78AF9DF269D /* libPods-AdamProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF000ACB4E0C7C1191F27C0 /* libPods-AdamProjectTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +59,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		008666D5E93A4D9FE415375E /* Pods-AdamProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdamProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdamProject/Pods-AdamProject.release.xcconfig"; sourceTree = "<group>"; };
 		2B548D8921CB29F700661E35 /* AdamProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdamProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B548D8C21CB29F700661E35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2B548D8D21CB29F700661E35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2B548D8F21CB29F700661E35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2B548D9021CB29F700661E35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2B548D9321CB29F700661E35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B548D9521CB29F800661E35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2B548D9821CB29F800661E35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B548D9A21CB29F800661E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B548D9B21CB29F800661E35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2B548DA121CB29F800661E35 /* AdamProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdamProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +72,58 @@
 		2B548DAC21CB29F800661E35 /* AdamProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdamProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B548DB021CB29F800661E35 /* AdamProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdamProjectUITests.m; sourceTree = "<group>"; };
 		2B548DB221CB29F800661E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B548DCE21CB333900661E35 /* GYHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYHomeViewController.h; sourceTree = "<group>"; };
+		2B548DCF21CB333900661E35 /* GYHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYHomeViewController.m; sourceTree = "<group>"; };
+		2B548DD021CB333900661E35 /* GYHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GYHomeViewController.xib; sourceTree = "<group>"; };
+		2B548DD321CB335600661E35 /* GYCategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYCategoryViewController.h; sourceTree = "<group>"; };
+		2B548DD421CB335600661E35 /* GYCategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYCategoryViewController.m; sourceTree = "<group>"; };
+		2B548DD521CB335600661E35 /* GYCategoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GYCategoryViewController.xib; sourceTree = "<group>"; };
+		2B6AD3A121D37F000043A5D7 /* GYShoppingCartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYShoppingCartViewController.h; sourceTree = "<group>"; };
+		2B6AD3A221D37F000043A5D7 /* GYShoppingCartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYShoppingCartViewController.m; sourceTree = "<group>"; };
+		2B6AD3A321D37F000043A5D7 /* GYShoppingCartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GYShoppingCartViewController.xib; sourceTree = "<group>"; };
+		2BC1058821CB718C00CFDC02 /* QMUIConfigurationTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplate.h; sourceTree = "<group>"; };
+		2BC1058921CB718C00CFDC02 /* QMUIConfigurationTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplate.m; sourceTree = "<group>"; };
+		2BC1058B21CB753A00CFDC02 /* QDCommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDCommonViewController.h; sourceTree = "<group>"; };
+		2BC1058C21CB753A00CFDC02 /* QDCommonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDCommonTableViewController.h; sourceTree = "<group>"; };
+		2BC1058D21CB753A00CFDC02 /* QDCommonListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDCommonListViewController.m; sourceTree = "<group>"; };
+		2BC1058E21CB753A00CFDC02 /* QDTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDTabBarViewController.h; sourceTree = "<group>"; };
+		2BC1058F21CB753A00CFDC02 /* QDCommonGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDCommonGridViewController.m; sourceTree = "<group>"; };
+		2BC1059021CB753A00CFDC02 /* QDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDNavigationController.h; sourceTree = "<group>"; };
+		2BC1059121CB753A00CFDC02 /* QDCommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDCommonViewController.m; sourceTree = "<group>"; };
+		2BC1059221CB753A00CFDC02 /* QDCommonListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDCommonListViewController.h; sourceTree = "<group>"; };
+		2BC1059321CB753A00CFDC02 /* QDCommonGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDCommonGridViewController.h; sourceTree = "<group>"; };
+		2BC1059421CB753A00CFDC02 /* QDCommonGroupListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDCommonGroupListViewController.h; sourceTree = "<group>"; };
+		2BC1059521CB753A00CFDC02 /* QDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDNavigationController.m; sourceTree = "<group>"; };
+		2BC1059621CB753A00CFDC02 /* QDCommonGroupListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDCommonGroupListViewController.m; sourceTree = "<group>"; };
+		2BC1059721CB753B00CFDC02 /* QDTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDTabBarViewController.m; sourceTree = "<group>"; };
+		2BC1059821CB753B00CFDC02 /* QDCommonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDCommonTableViewController.m; sourceTree = "<group>"; };
+		2BC105A021CB78B300CFDC02 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2BC105A321CB828F00CFDC02 /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
+		2BC105A421CB828F00CFDC02 /* QDCommonUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDCommonUI.h; sourceTree = "<group>"; };
+		2BC105A521CB828F00CFDC02 /* QDUIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDUIHelper.m; sourceTree = "<group>"; };
+		2BC105A621CB828F00CFDC02 /* UIImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
+		2BC105A721CB828F00CFDC02 /* QDCommonUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDCommonUI.m; sourceTree = "<group>"; };
+		2BC105A821CB828F00CFDC02 /* QDUIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDUIHelper.h; sourceTree = "<group>"; };
+		2BC105AC21CB841300CFDC02 /* QDThemeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDThemeProtocol.h; sourceTree = "<group>"; };
+		2BC105AD21CB841300CFDC02 /* QMUIConfigurationTemplateGrass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplateGrass.m; sourceTree = "<group>"; };
+		2BC105AE21CB841300CFDC02 /* QDThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDThemeManager.h; sourceTree = "<group>"; };
+		2BC105AF21CB841300CFDC02 /* QMUIConfigurationTemplateGrapefruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplateGrapefruit.h; sourceTree = "<group>"; };
+		2BC105B021CB841300CFDC02 /* QDThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDThemeManager.m; sourceTree = "<group>"; };
+		2BC105B121CB841300CFDC02 /* QMUIConfigurationTemplatePinkRose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplatePinkRose.m; sourceTree = "<group>"; };
+		2BC105B221CB841300CFDC02 /* QMUIConfigurationTemplateGrapefruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplateGrapefruit.m; sourceTree = "<group>"; };
+		2BC105B321CB841300CFDC02 /* QMUIConfigurationTemplateGrass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplateGrass.h; sourceTree = "<group>"; };
+		2BC105B421CB841300CFDC02 /* QMUIConfigurationTemplatePinkRose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplatePinkRose.h; sourceTree = "<group>"; };
+		2BC105B921CB885900CFDC02 /* GYMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYMineViewController.h; sourceTree = "<group>"; };
+		2BC105BA21CB885900CFDC02 /* GYMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYMineViewController.m; sourceTree = "<group>"; };
+		2BC105BB21CB885900CFDC02 /* GYMineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GYMineViewController.xib; sourceTree = "<group>"; };
+		2BC105C021CB8CF600CFDC02 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BC105C421CB9AE200CFDC02 /* UINavigationBar+QMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+QMUI.m"; sourceTree = "<group>"; };
+		2BC105C521CB9AE200CFDC02 /* UINavigationBar+QMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+QMUI.h"; sourceTree = "<group>"; };
+		363D75C7020F6526314F8440 /* Pods-AdamProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdamProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdamProjectTests/Pods-AdamProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BF000ACB4E0C7C1191F27C0 /* libPods-AdamProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdamProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		783CCD3B2D1BBD9524A30F1C /* Pods-AdamProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdamProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdamProjectTests/Pods-AdamProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		7ED11B3CC802ED76A04167DA /* Pods-AdamProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdamProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdamProject/Pods-AdamProject.debug.xcconfig"; sourceTree = "<group>"; };
+		9E6A1535E4840D6EF7FFAB65 /* libPods-AdamProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdamProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1828251DD5B7AB16122D111D /* libPods-AdamProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8FF21612488C78AF9DF269D /* libPods-AdamProjectTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +153,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01A539280E66C629C058CD22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E6A1535E4840D6EF7FFAB65 /* libPods-AdamProject.a */,
+				3BF000ACB4E0C7C1191F27C0 /* libPods-AdamProjectTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2B548D8021CB29F700661E35 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +169,8 @@
 				2B548DA421CB29F800661E35 /* AdamProjectTests */,
 				2B548DAF21CB29F800661E35 /* AdamProjectUITests */,
 				2B548D8A21CB29F700661E35 /* Products */,
+				E9D9CD528402C1182C1441C3 /* Pods */,
+				01A539280E66C629C058CD22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +187,18 @@
 		2B548D8B21CB29F700661E35 /* AdamProject */ = {
 			isa = PBXGroup;
 			children = (
+				2BC105A021CB78B300CFDC02 /* PrefixHeader.pch */,
 				2B548D8C21CB29F700661E35 /* AppDelegate.h */,
 				2B548D8D21CB29F700661E35 /* AppDelegate.m */,
-				2B548D8F21CB29F700661E35 /* ViewController.h */,
-				2B548D9021CB29F700661E35 /* ViewController.m */,
-				2B548D9221CB29F700661E35 /* Main.storyboard */,
 				2B548D9521CB29F800661E35 /* Assets.xcassets */,
-				2B548D9721CB29F800661E35 /* LaunchScreen.storyboard */,
+				2BC105C021CB8CF600CFDC02 /* LaunchScreen.storyboard */,
 				2B548D9A21CB29F800661E35 /* Info.plist */,
 				2B548D9B21CB29F800661E35 /* main.m */,
+				2B548DC521CB327400661E35 /* Global */,
+				2B548DC121CB327400661E35 /* Controller */,
+				2B548DC321CB327400661E35 /* Helper */,
+				2B548DC221CB327400661E35 /* Model */,
+				2B548DC421CB327400661E35 /* View */,
 			);
 			path = AdamProject;
 			sourceTree = "<group>";
@@ -132,6 +221,161 @@
 			path = AdamProjectUITests;
 			sourceTree = "<group>";
 		};
+		2B548DC121CB327400661E35 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B548DD821CB348F00661E35 /* Root */,
+				2B6AD3A021D37EAF0043A5D7 /* ShoppingCart */,
+				2B548DCB21CB32CA00661E35 /* Home */,
+				2B548DCD21CB331200661E35 /* Category */,
+				2B548DCC21CB32D700661E35 /* Mine */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B548DC221CB327400661E35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B548DC321CB327400661E35 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2BC105C321CB9AE200CFDC02 /* Category */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2B548DC421CB327400661E35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B548DC521CB327400661E35 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				2BC1058721CB718C00CFDC02 /* Config */,
+				2BC105A221CB828F00CFDC02 /* Utils */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		2B548DCB21CB32CA00661E35 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2B548DCE21CB333900661E35 /* GYHomeViewController.h */,
+				2B548DCF21CB333900661E35 /* GYHomeViewController.m */,
+				2B548DD021CB333900661E35 /* GYHomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2B548DCC21CB32D700661E35 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				2BC105B921CB885900CFDC02 /* GYMineViewController.h */,
+				2BC105BA21CB885900CFDC02 /* GYMineViewController.m */,
+				2BC105BB21CB885900CFDC02 /* GYMineViewController.xib */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		2B548DCD21CB331200661E35 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2B548DD321CB335600661E35 /* GYCategoryViewController.h */,
+				2B548DD421CB335600661E35 /* GYCategoryViewController.m */,
+				2B548DD521CB335600661E35 /* GYCategoryViewController.xib */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2B548DD821CB348F00661E35 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				2BC1059321CB753A00CFDC02 /* QDCommonGridViewController.h */,
+				2BC1058F21CB753A00CFDC02 /* QDCommonGridViewController.m */,
+				2BC1059421CB753A00CFDC02 /* QDCommonGroupListViewController.h */,
+				2BC1059621CB753A00CFDC02 /* QDCommonGroupListViewController.m */,
+				2BC1059221CB753A00CFDC02 /* QDCommonListViewController.h */,
+				2BC1058D21CB753A00CFDC02 /* QDCommonListViewController.m */,
+				2BC1058C21CB753A00CFDC02 /* QDCommonTableViewController.h */,
+				2BC1059821CB753B00CFDC02 /* QDCommonTableViewController.m */,
+				2BC1058B21CB753A00CFDC02 /* QDCommonViewController.h */,
+				2BC1059121CB753A00CFDC02 /* QDCommonViewController.m */,
+				2BC1059021CB753A00CFDC02 /* QDNavigationController.h */,
+				2BC1059521CB753A00CFDC02 /* QDNavigationController.m */,
+				2BC1058E21CB753A00CFDC02 /* QDTabBarViewController.h */,
+				2BC1059721CB753B00CFDC02 /* QDTabBarViewController.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		2B6AD3A021D37EAF0043A5D7 /* ShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				2B6AD3A121D37F000043A5D7 /* GYShoppingCartViewController.h */,
+				2B6AD3A221D37F000043A5D7 /* GYShoppingCartViewController.m */,
+				2B6AD3A321D37F000043A5D7 /* GYShoppingCartViewController.xib */,
+			);
+			path = ShoppingCart;
+			sourceTree = "<group>";
+		};
+		2BC1058721CB718C00CFDC02 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				2BC105AC21CB841300CFDC02 /* QDThemeProtocol.h */,
+				2BC1058821CB718C00CFDC02 /* QMUIConfigurationTemplate.h */,
+				2BC1058921CB718C00CFDC02 /* QMUIConfigurationTemplate.m */,
+				2BC105AE21CB841300CFDC02 /* QDThemeManager.h */,
+				2BC105B021CB841300CFDC02 /* QDThemeManager.m */,
+				2BC105AF21CB841300CFDC02 /* QMUIConfigurationTemplateGrapefruit.h */,
+				2BC105B221CB841300CFDC02 /* QMUIConfigurationTemplateGrapefruit.m */,
+				2BC105B321CB841300CFDC02 /* QMUIConfigurationTemplateGrass.h */,
+				2BC105AD21CB841300CFDC02 /* QMUIConfigurationTemplateGrass.m */,
+				2BC105B421CB841300CFDC02 /* QMUIConfigurationTemplatePinkRose.h */,
+				2BC105B121CB841300CFDC02 /* QMUIConfigurationTemplatePinkRose.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		2BC105A221CB828F00CFDC02 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2BC105A421CB828F00CFDC02 /* QDCommonUI.h */,
+				2BC105A721CB828F00CFDC02 /* QDCommonUI.m */,
+				2BC105A821CB828F00CFDC02 /* QDUIHelper.h */,
+				2BC105A521CB828F00CFDC02 /* QDUIHelper.m */,
+				2BC105A321CB828F00CFDC02 /* UIImageEffects.h */,
+				2BC105A621CB828F00CFDC02 /* UIImageEffects.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2BC105C321CB9AE200CFDC02 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2BC105C421CB9AE200CFDC02 /* UINavigationBar+QMUI.m */,
+				2BC105C521CB9AE200CFDC02 /* UINavigationBar+QMUI.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E9D9CD528402C1182C1441C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ED11B3CC802ED76A04167DA /* Pods-AdamProject.debug.xcconfig */,
+				008666D5E93A4D9FE415375E /* Pods-AdamProject.release.xcconfig */,
+				363D75C7020F6526314F8440 /* Pods-AdamProjectTests.debug.xcconfig */,
+				783CCD3B2D1BBD9524A30F1C /* Pods-AdamProjectTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +383,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B548DB521CB29F800661E35 /* Build configuration list for PBXNativeTarget "AdamProject" */;
 			buildPhases = (
+				4E46EDEC6E700E1113609AEF /* [CP] Check Pods Manifest.lock */,
 				2B548D8521CB29F700661E35 /* Sources */,
 				2B548D8621CB29F700661E35 /* Frameworks */,
 				2B548D8721CB29F700661E35 /* Resources */,
+				E28421D5723B96A0BED5B584 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +402,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B548DB821CB29F800661E35 /* Build configuration list for PBXNativeTarget "AdamProjectTests" */;
 			buildPhases = (
+				4E31A0498F3816DA695E12F5 /* [CP] Check Pods Manifest.lock */,
 				2B548D9D21CB29F800661E35 /* Sources */,
 				2B548D9E21CB29F800661E35 /* Frameworks */,
 				2B548D9F21CB29F800661E35 /* Resources */,
@@ -235,9 +482,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B548D9921CB29F800661E35 /* LaunchScreen.storyboard in Resources */,
+				2B6AD3A521D37F000043A5D7 /* GYShoppingCartViewController.xib in Resources */,
+				2B548DD221CB333900661E35 /* GYHomeViewController.xib in Resources */,
+				2B548DD721CB335600661E35 /* GYCategoryViewController.xib in Resources */,
+				2BC105BD21CB885900CFDC02 /* GYMineViewController.xib in Resources */,
+				2BC105C121CB8CF600CFDC02 /* LaunchScreen.storyboard in Resources */,
 				2B548D9621CB29F800661E35 /* Assets.xcassets in Resources */,
-				2B548D9421CB29F700661E35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +507,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E31A0498F3816DA695E12F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdamProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E46EDEC6E700E1113609AEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdamProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E28421D5723B96A0BED5B584 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AdamProject/Pods-AdamProject-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/QMUIKit/QMUIKit/QMUIResources/QMUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QMUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdamProject/Pods-AdamProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2B548D8521CB29F700661E35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B548D9121CB29F700661E35 /* ViewController.m in Sources */,
+				2BC105BC21CB885900CFDC02 /* GYMineViewController.m in Sources */,
+				2BC105B821CB841300CFDC02 /* QMUIConfigurationTemplateGrapefruit.m in Sources */,
+				2B548DD121CB333900661E35 /* GYHomeViewController.m in Sources */,
+				2BC1059A21CB753B00CFDC02 /* QDCommonGridViewController.m in Sources */,
+				2BC105AB21CB828F00CFDC02 /* QDCommonUI.m in Sources */,
+				2BC1059F21CB753B00CFDC02 /* QDCommonTableViewController.m in Sources */,
+				2BC1059B21CB753B00CFDC02 /* QDCommonViewController.m in Sources */,
+				2BC105B621CB841300CFDC02 /* QDThemeManager.m in Sources */,
+				2B6AD3A421D37F000043A5D7 /* GYShoppingCartViewController.m in Sources */,
+				2BC1059D21CB753B00CFDC02 /* QDCommonGroupListViewController.m in Sources */,
+				2BC1058A21CB718C00CFDC02 /* QMUIConfigurationTemplate.m in Sources */,
+				2BC105B521CB841300CFDC02 /* QMUIConfigurationTemplateGrass.m in Sources */,
+				2BC1059921CB753B00CFDC02 /* QDCommonListViewController.m in Sources */,
+				2BC105AA21CB828F00CFDC02 /* UIImageEffects.m in Sources */,
+				2BC105A921CB828F00CFDC02 /* QDUIHelper.m in Sources */,
+				2BC1059C21CB753B00CFDC02 /* QDNavigationController.m in Sources */,
 				2B548D9C21CB29F800661E35 /* main.m in Sources */,
+				2BC105B721CB841300CFDC02 /* QMUIConfigurationTemplatePinkRose.m in Sources */,
 				2B548D8E21CB29F700661E35 /* AppDelegate.m in Sources */,
+				2B548DD621CB335600661E35 /* GYCategoryViewController.m in Sources */,
+				2BC105C621CB9AE200CFDC02 /* UINavigationBar+QMUI.m in Sources */,
+				2BC1059E21CB753B00CFDC02 /* QDTabBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,25 +626,6 @@
 			targetProxy = 2B548DAD21CB29F800661E35 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2B548D9221CB29F700661E35 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2B548D9321CB29F700661E35 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2B548D9721CB29F800661E35 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2B548D9821CB29F800661E35 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2B548DB321CB29F800661E35 /* Debug */ = {
@@ -433,10 +742,15 @@
 		};
 		2B548DB621CB29F800661E35 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ED11B3CC802ED76A04167DA /* Pods-AdamProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9664G3BP7Z;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ./AdamProject/PrefixHeader.pch;
 				INFOPLIST_FILE = AdamProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,10 +763,15 @@
 		};
 		2B548DB721CB29F800661E35 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 008666D5E93A4D9FE415375E /* Pods-AdamProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9664G3BP7Z;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ./AdamProject/PrefixHeader.pch;
 				INFOPLIST_FILE = AdamProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,6 +784,7 @@
 		};
 		2B548DB921CB29F800661E35 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 363D75C7020F6526314F8440 /* Pods-AdamProjectTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +803,7 @@
 		};
 		2B548DBA21CB29F800661E35 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 783CCD3B2D1BBD9524A30F1C /* Pods-AdamProjectTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;

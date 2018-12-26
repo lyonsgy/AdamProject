@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  AdamProject
+//
+//  Created by lyons on 2018/12/20.
+//  Copyright © 2018 lyons. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import <QMUIKit/QMUIKit.h>
+
+#import "QDCommonUI.h"
+#import "QDUIHelper.h"
+#import "QDThemeManager.h"
+
+#endif /* PrefixHeader_pch */
