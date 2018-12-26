@@ -12,8 +12,9 @@
 #import "QDTabBarViewController.h"
 #import "QDNavigationController.h"
 #import "GYHomeViewController.h"
+#import "GYCategoryViewController.h"
+#import "GYShoppingCartViewController.h"
 #import "GYMineViewController.h"
-#import "Controller/Category/GYCategoryViewController.h"
 
 @interface AppDelegate ()
 
@@ -43,29 +44,36 @@
 - (void)createTabBarController {
     QDTabBarViewController *tabBarViewController = [[QDTabBarViewController alloc] init];
     
-    // QMUIKit
+    // HOME
     GYHomeViewController *homeViewController = [[GYHomeViewController alloc] init];
     homeViewController.hidesBottomBarWhenPushed = NO;
     QDNavigationController *homeNavController = [[QDNavigationController alloc] initWithRootViewController:homeViewController];
     homeNavController.tabBarItem = [QDUIHelper tabBarItemWithTitle:@"首页" image:[UIImageMake(@"icon_tabbar_uikit") imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:UIImageMake(@"icon_tabbar_uikit_selected") tag:0];
     AddAccessibilityHint(homeNavController.tabBarItem, @"展示一系列对系统原生控件的拓展的能力");
     
-    // UIComponents
+    // Category
     GYCategoryViewController *categoryViewController = [[GYCategoryViewController alloc] init];
     categoryViewController.hidesBottomBarWhenPushed = NO;
     QDNavigationController *categoryNavController = [[QDNavigationController alloc] initWithRootViewController:categoryViewController];
     categoryNavController.tabBarItem = [QDUIHelper tabBarItemWithTitle:@"分类" image:[UIImageMake(@"icon_tabbar_component") imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:UIImageMake(@"icon_tabbar_component_selected") tag:1];
     AddAccessibilityHint(categoryNavController.tabBarItem, @"展示 QMUI 自己的组件库");
     
-    // Lab
+    // Mine
+    GYShoppingCartViewController *shoppingCartViewController = [[GYShoppingCartViewController alloc] init];
+    shoppingCartViewController.hidesBottomBarWhenPushed = NO;
+    QDNavigationController *shoppingCartNavController = [[QDNavigationController alloc] initWithRootViewController:shoppingCartViewController];
+    shoppingCartNavController.tabBarItem = [QDUIHelper tabBarItemWithTitle:@"购物车" image:[UIImageMake(@"icon_tabbar_lab") imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:UIImageMake(@"icon_tabbar_lab_selected") tag:2];
+    AddAccessibilityHint(shoppingCartNavController.tabBarItem, @"集合一些非正式但可能很有用的小功能");
+    
+    // Mine
     GYMineViewController *mineViewController = [[GYMineViewController alloc] init];
     mineViewController.hidesBottomBarWhenPushed = NO;
     QDNavigationController *mineNavController = [[QDNavigationController alloc] initWithRootViewController:mineViewController];
-    mineNavController.tabBarItem = [QDUIHelper tabBarItemWithTitle:@"我的" image:[UIImageMake(@"icon_tabbar_lab") imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:UIImageMake(@"icon_tabbar_lab_selected") tag:2];
+    mineNavController.tabBarItem = [QDUIHelper tabBarItemWithTitle:@"我的" image:[UIImageMake(@"icon_tabbar_lab") imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:UIImageMake(@"icon_tabbar_lab_selected") tag:3];
     AddAccessibilityHint(mineNavController.tabBarItem, @"集合一些非正式但可能很有用的小功能");
     
     // window root controller
-    tabBarViewController.viewControllers = @[homeNavController, categoryNavController, mineNavController];
+    tabBarViewController.viewControllers = @[homeNavController, categoryNavController,shoppingCartNavController, mineNavController];
     self.window.rootViewController = tabBarViewController;
     [self.window makeKeyAndVisible];
 }

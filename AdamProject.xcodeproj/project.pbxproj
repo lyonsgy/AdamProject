@@ -225,9 +225,9 @@
 			isa = PBXGroup;
 			children = (
 				2B548DD821CB348F00661E35 /* Root */,
-				2B6AD3A021D37EAF0043A5D7 /* ShoppingCart */,
 				2B548DCB21CB32CA00661E35 /* Home */,
 				2B548DCD21CB331200661E35 /* Category */,
+				2B6AD3A021D37EAF0043A5D7 /* ShoppingCart */,
 				2B548DCC21CB32D700661E35 /* Mine */,
 			);
 			path = Controller;
@@ -267,6 +267,7 @@
 		2B548DCB21CB32CA00661E35 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				2B6AD3A721D382DC0043A5D7 /* Cell */,
 				2B548DCE21CB333900661E35 /* GYHomeViewController.h */,
 				2B548DCF21CB333900661E35 /* GYHomeViewController.m */,
 				2B548DD021CB333900661E35 /* GYHomeViewController.xib */,
@@ -277,6 +278,7 @@
 		2B548DCC21CB32D700661E35 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				2B6AD3AA21D3831C0043A5D7 /* Cell */,
 				2BC105B921CB885900CFDC02 /* GYMineViewController.h */,
 				2BC105BA21CB885900CFDC02 /* GYMineViewController.m */,
 				2BC105BB21CB885900CFDC02 /* GYMineViewController.xib */,
@@ -287,6 +289,7 @@
 		2B548DCD21CB331200661E35 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				2B6AD3A921D383120043A5D7 /* Cell */,
 				2B548DD321CB335600661E35 /* GYCategoryViewController.h */,
 				2B548DD421CB335600661E35 /* GYCategoryViewController.m */,
 				2B548DD521CB335600661E35 /* GYCategoryViewController.xib */,
@@ -318,11 +321,40 @@
 		2B6AD3A021D37EAF0043A5D7 /* ShoppingCart */ = {
 			isa = PBXGroup;
 			children = (
+				2B6AD3A821D3830B0043A5D7 /* Cell */,
 				2B6AD3A121D37F000043A5D7 /* GYShoppingCartViewController.h */,
 				2B6AD3A221D37F000043A5D7 /* GYShoppingCartViewController.m */,
 				2B6AD3A321D37F000043A5D7 /* GYShoppingCartViewController.xib */,
 			);
 			path = ShoppingCart;
+			sourceTree = "<group>";
+		};
+		2B6AD3A721D382DC0043A5D7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2B6AD3A821D3830B0043A5D7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2B6AD3A921D383120043A5D7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2B6AD3AA21D3831C0043A5D7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		2BC1058721CB718C00CFDC02 /* Config */ = {
