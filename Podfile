@@ -7,7 +7,7 @@ pod 'BlocksKit', '~> 2.2.5'
 pod 'AFNetworking', '~> 2.5.4'
 pod 'MBProgressHUD', '~> 0.9.1'
 pod 'JSONModel', '~> 1.1.0'
-pod 'SDWebImage', '~> 3.7.3'
+pod 'SDWebImage', '~> 4.0.0'
 pod 'MJRefresh', '~> 2.3.1'
 pod 'AFNetworkActivityLogger', '~> 2.0.4'
 pod 'FMDB', '~> 2.5'
@@ -16,6 +16,7 @@ pod 'Hawk', '~> 0.1.0'
 pod 'YYText'
 pod 'YYModel'
 pod 'QMUIKit', '~> 2.9.2'
+pod 'SDCycleScrollView','~> 1.75'
 
 end
 
