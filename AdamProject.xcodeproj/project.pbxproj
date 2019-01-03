@@ -194,6 +194,8 @@
 		2B6AD79721D4D8320043A5D7 /* NSObject+SYCreateSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6AD79521D4D8310043A5D7 /* NSObject+SYCreateSignature.m */; };
 		2B6AD79D21D4D8E60043A5D7 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6AD79B21D4D8E60043A5D7 /* UIView+Extension.m */; };
 		2B6AD79E21D4D8E60043A5D7 /* LoadingViewForOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6AD79C21D4D8E60043A5D7 /* LoadingViewForOC.m */; };
+		2B6AD7A921D5C8C00043A5D7 /* GYTodayRecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6AD7A721D5C8C00043A5D7 /* GYTodayRecommendCell.m */; };
+		2B6AD7AA21D5C8C00043A5D7 /* GYTodayRecommendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B6AD7A821D5C8C00043A5D7 /* GYTodayRecommendCell.xib */; };
 		2BC1059921CB753B00CFDC02 /* QDCommonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1058D21CB753A00CFDC02 /* QDCommonListViewController.m */; };
 		2BC1059A21CB753B00CFDC02 /* QDCommonGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1058F21CB753A00CFDC02 /* QDCommonGridViewController.m */; };
 		2BC1059B21CB753B00CFDC02 /* QDCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1059121CB753A00CFDC02 /* QDCommonViewController.m */; };
@@ -604,6 +606,9 @@
 		2B6AD79A21D4D8E60043A5D7 /* LoadingViewForOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewForOC.h; sourceTree = "<group>"; };
 		2B6AD79B21D4D8E60043A5D7 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		2B6AD79C21D4D8E60043A5D7 /* LoadingViewForOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewForOC.m; sourceTree = "<group>"; };
+		2B6AD7A621D5C8C00043A5D7 /* GYTodayRecommendCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYTodayRecommendCell.h; sourceTree = "<group>"; };
+		2B6AD7A721D5C8C00043A5D7 /* GYTodayRecommendCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYTodayRecommendCell.m; sourceTree = "<group>"; };
+		2B6AD7A821D5C8C00043A5D7 /* GYTodayRecommendCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GYTodayRecommendCell.xib; sourceTree = "<group>"; };
 		2BC1058B21CB753A00CFDC02 /* QDCommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDCommonViewController.h; sourceTree = "<group>"; };
 		2BC1058C21CB753A00CFDC02 /* QDCommonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDCommonTableViewController.h; sourceTree = "<group>"; };
 		2BC1058D21CB753A00CFDC02 /* QDCommonListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDCommonListViewController.m; sourceTree = "<group>"; };
@@ -869,6 +874,9 @@
 		2B6AD3A721D382DC0043A5D7 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				2B6AD7A621D5C8C00043A5D7 /* GYTodayRecommendCell.h */,
+				2B6AD7A721D5C8C00043A5D7 /* GYTodayRecommendCell.m */,
+				2B6AD7A821D5C8C00043A5D7 /* GYTodayRecommendCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -1623,6 +1631,7 @@
 			files = (
 				2B6AD3A521D37F000043A5D7 /* GYShoppingCartViewController.xib in Resources */,
 				2B548DD221CB333900661E35 /* GYHomeViewController.xib in Resources */,
+				2B6AD7AA21D5C8C00043A5D7 /* GYTodayRecommendCell.xib in Resources */,
 				2B548DD721CB335600661E35 /* GYCategoryViewController.xib in Resources */,
 				2B6AD50521D4C5E60043A5D7 /* arrow@2x.png in Resources */,
 				2BC105BD21CB885900CFDC02 /* GYMineViewController.xib in Resources */,
@@ -1796,6 +1805,7 @@
 				2B6AD50421D4C5E60043A5D7 /* UIView+Cutter.m in Sources */,
 				2B6AD5BC21D4C9110043A5D7 /* DGActivityIndicatorTripleRingsAnimation.m in Sources */,
 				2B6AD5BD21D4C9110043A5D7 /* DGActivityIndicatorBallGridPulseAnimation.m in Sources */,
+				2B6AD7A921D5C8C00043A5D7 /* GYTodayRecommendCell.m in Sources */,
 				2B6AD60B21D4CBD30043A5D7 /* UIImageView+NPProgressView.m in Sources */,
 				2B6AD5C221D4C9110043A5D7 /* DGActivityIndicatorBallScaleMultipleAnimation.m in Sources */,
 				2B6AD5E521D4C9110043A5D7 /* TYTextContainer+Extended.m in Sources */,

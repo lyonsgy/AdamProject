@@ -7,10 +7,11 @@
 //
 
 #import "QDCommonViewController.h"
+#import "QDCommonTableViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface GYHomeViewController : QDCommonViewController
+@interface GYHomeViewController : QDCommonTableViewController
 
 @end
 
