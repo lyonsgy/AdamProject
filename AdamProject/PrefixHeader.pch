@@ -18,7 +18,6 @@
 #import "QDUIHelper.h"
 #import "QDThemeManager.h"
 
-#import <Foundation/Foundation.h>
 #import "Helper/Functions/NPCommonFunction.h"
 #import "Dlog.h"
 #import "UIColor+Hex.h"
@@ -40,10 +39,7 @@
 #import "UIButton+UI.h"
 #import "NPUserInfoSingleton.h"
 #import "NPRootDataModel.h"
-#import "NPRefreshGifHeader.h"
-#import "NPRefreshAutoGifFooter.h"
 #import "UIView+Layout.h"
-#import "UIImageView+NPProgressView.h"
 #import "BlocksKit+UIKit.h"
 
 #endif /* PrefixHeader_pch */
